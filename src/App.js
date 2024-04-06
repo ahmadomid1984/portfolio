@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* Redirect from the root path to /personal-info */}
-          <Route path="/" element={<Navigate to="/personal-info" />} />
+          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} /> {/* Add route for Home */}
           <Route path="/personal-info" element={<PersonalInfo />} />
           <Route path="/skills" element={<Skills />} />
