@@ -3,7 +3,7 @@ import React from 'react';
 const EducationalBackground = () => {
     return (
         <div className="container py-5">
-            <h2 className="text-center" style={{ fontSize: '4em', marginBottom: '80px' }}>Educational Background</h2>
+            <h2 className="text-center" style={{ fontSize: '3em', marginBottom: '80px' }}>Educational Background</h2>
             
             {/* Bachelor studies */}
             <div className="mb-5 text-center">

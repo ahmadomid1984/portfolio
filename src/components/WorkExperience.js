@@ -3,7 +3,7 @@ import React from 'react';
 const WorkExperience = () => {
     return (
         <div className="container py-5">
-            <h2 className="text-center" style={{ fontSize: '4em', marginBottom: '80px' }}>Work Experience</h2>
+            <h2 className="text-center" style={{ fontSize: '3em', marginBottom: '80px' }}>Work Experience</h2>
             <div className="row">
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
