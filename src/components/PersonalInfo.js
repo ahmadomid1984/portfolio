@@ -17,13 +17,13 @@ const styles = {
         textAlign: 'center',
     },
     cardContainer: {
-        marginTop: '40px',
+        marginTop: '20px',
     },
     cardText: {
         textAlign: 'left',
         marginLeft: '40px',
         marginTop: '10px',
-        fontSize: '24px',
+        fontSize: '22px',
     },
 };
 
