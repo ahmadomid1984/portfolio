@@ -17,10 +17,10 @@ const styles = {
         textAlign: 'center',
     },
     cardContainer: {
-        marginTop: '10px',
+        marginTop: '40px',
     },
     cardText: {
-        textAlign: 'justify',
+        textAlign: 'left',
         marginLeft: '40px',
         marginTop: '10px',
         fontSize: '24px',
@@ -38,7 +38,7 @@ const PersonalInfo = () => {
                     </div>
                     <div className="col-md-6 col-sm-12 order-1 order-md-2"> {/* Order changed for smaller screens */}
                         <div style={{ ...styles.cardContainer, flexDirection: 'column', textAlign: 'center' }}>
-                            <img src="/images/profile-2.png" alt="John Doe" className="img-fluid rounded-circle shadow" style={{ maxWidth: '400px', marginBottom: '20px' }} />
+                            <img src="/images/profile-2.png" alt="John Doe" className="img-fluid rounded-circle shadow" style={{ maxWidth: '350px', marginBottom: '20px' }} />
                         </div>
                     </div>
                 </div>
