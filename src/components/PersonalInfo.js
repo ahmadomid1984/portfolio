@@ -8,7 +8,7 @@ const styles = {
         minHeight: '50vh',
     },
     aboutHeading: {
-        fontSize: '5em',
+        fontSize: '4em',
         marginTop: '50px',
         textAlign: 'center', // Center the text
     },
@@ -17,13 +17,13 @@ const styles = {
         textAlign: 'center',
     },
     cardContainer: {
-        marginTop: '20px',
+        marginTop: '10px',
     },
     cardText: {
         textAlign: 'left',
         marginLeft: '40px',
         marginTop: '10px',
-        fontSize: '22px',
+        fontSize: '20px',
     },
 };
 
@@ -38,7 +38,7 @@ const PersonalInfo = () => {
                     </div>
                     <div className="col-md-6 col-sm-12 order-1 order-md-2"> {/* Order changed for smaller screens */}
                         <div style={{ ...styles.cardContainer, flexDirection: 'column', textAlign: 'center' }}>
-                            <img src="/images/profile-2.png" alt="John Doe" className="img-fluid rounded-circle shadow" style={{ maxWidth: '350px', marginBottom: '20px' }} />
+                            <img src="/images/profile-2.png" alt="John Doe" className="img-fluid rounded-circle shadow" style={{ maxWidth: '300px', marginBottom: '20px' }} />
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const styles = {
     nameStyle: {
-        fontSize: '5em',
+        fontSize: '4em',
         marginTop: '50px',
     },
     cardContainer: {

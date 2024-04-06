@@ -3,11 +3,11 @@ import React from 'react';
 const EducationalBackground = () => {
     return (
         <div className="container py-5">
-            <h2 className="text-center" style={{ fontSize: '5em', marginBottom: '80px' }}>Educational Background</h2>
+            <h2 className="text-center" style={{ fontSize: '4em', marginBottom: '80px' }}>Educational Background</h2>
             
             {/* Bachelor studies */}
             <div className="mb-5 text-center">
-                <h3 className="mb-3" style={{ fontSize: '3em' }}>Bachelor Studies</h3>
+                <h3 className="mb-3" style={{ fontSize: '2.5em' }}>Bachelor Studies</h3>
                 <div className="row">
                     <div className="col-md-6 mx-auto">
                         <div className="card p-4 mb-3">
@@ -31,7 +31,7 @@ const EducationalBackground = () => {
             
             {/* Master studies */}
             <div className="mb-5 text-center">
-                <h3 className="mb-3" style={{ fontSize: '3em' }}>Master Studies</h3>
+                <h3 className="mb-3" style={{ fontSize: '2.5em' }}>Master Studies</h3>
                 <div className="row">
                     <div className="col-md-6 mx-auto">
                         <div className="card p-4 mb-3">
@@ -55,7 +55,7 @@ const EducationalBackground = () => {
             
             {/* Ph.D. studies */}
             <div className="mb-5 text-center">
-                <h3 className="mb-3" style={{ fontSize: '3em' }}>Ph.D. Studies</h3>
+                <h3 className="mb-3" style={{ fontSize: '2.5em' }}>Ph.D. Studies</h3>
                 <div className="row">
                     <div className="col-md-6 mx-auto">
                         <div className="card p-4 mb-3">

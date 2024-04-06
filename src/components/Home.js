@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             <h1 style={styles.nameStyle}>Ahmad Omid</h1>
             <div>
-                <h2 style={{ fontSize: '2.6em', textAlign: 'center', marginBottom: '40px' }}>I'm a Developer & a Computer Applications Student</h2>
+                <h2 style={{ fontSize: '2.2em', textAlign: 'center', marginBottom: '40px' }}>I'm a Developer & a Computer Applications Student</h2>
             </div>
             <Social /> {/* Include the Social component here */}
         </div>
