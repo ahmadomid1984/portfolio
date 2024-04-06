@@ -13,7 +13,7 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.5em' }}>A responsive Dev Portfolio Website made in React and Bootstrap.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <button className="btn btn-primary">GitHub</button>
+                            <a href="https://github.com/ahmadomid1984/dev-portfolio.git" className="btn btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.5em' }}>IoT interface system integrating temperature, moisture, and CO2 data.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <button className="btn btn-primary">GitHub</button>
+                            <a href="https://github.com/LeylaMolnar/Waltikka-Group2" className="btn btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.5em' }}>Designing a website in different formats (PHP, HTML and Wordpress).</p>
                         </div>
                         <div className="card-footer text-center">
-                            <button className="btn btn-primary">GitHub</button>
+                            <a href="http://localhost:3000/projects" className="btn btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
