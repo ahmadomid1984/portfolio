@@ -6,9 +6,8 @@ body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-box {
+  margin: 10px 10px 10px 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
