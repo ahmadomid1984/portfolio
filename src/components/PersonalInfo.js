@@ -21,7 +21,7 @@ const styles = {
     },
     cardText: {
         textAlign: 'center',
-        marginLeft: '40px',
+        marginLeft: '30px',
         marginTop: '10px',
         fontSize: '20px',
     },
