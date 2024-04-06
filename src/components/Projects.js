@@ -13,7 +13,7 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.5em' }}>A responsive Dev Portfolio Website made in React and Bootstrap.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/dev-portfolio.git" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/portfolio.git" className="btn btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
