@@ -7,7 +7,7 @@ const WorkExperience = () => {
             <div className="row">
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>AI & ML Developer</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>AI & ML Developer</h4>
                         <p className="text-muted">Chart Lightening Oy</p>
                         <p className="text-muted">05/2024 - Present</p>
                         <p className="text-muted">Creating predictive analytics projects with LCJS and LC Python.
@@ -16,7 +16,7 @@ const WorkExperience = () => {
                 </div>
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>Web Developer</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>Web Developer</h4>
                         <p className="text-muted">Bovi Oy</p>
                         <p className="text-muted">02/2024 - 05/2024</p>
                         <p className="text-muted">Bovi, a specialized service centered around food and drinks, such as restaurants and cafes. 
@@ -25,7 +25,7 @@ const WorkExperience = () => {
                 </div>
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>PDF Invoice Automation</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>PDF Invoice Automation</h4>
                         <p className="text-muted">University project</p>
                         <p className="text-muted">01/2024 - 03/2024</p>
                         <p className="text-muted">Creating an automated PDF invoice processing system with UIPath and Robot Framework, 
@@ -34,7 +34,7 @@ const WorkExperience = () => {
                 </div>
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>AI & ML Projects</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>AI & ML Projects</h4>
                         <p className="text-muted">University project.</p>
                         <p className="text-muted">08/2023 - 12/2023</p>
                         <p className="text-muted">Working on various university projects, including supervised learning with the KNN algorithm, 
@@ -43,7 +43,7 @@ const WorkExperience = () => {
                 </div>
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>Hotel Waltikka UI for Sensor Data</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>Hotel Waltikka UI for Sensor Data</h4>
                         <p className="text-muted">University design factory project</p>
                         <p className="text-muted">08/2023 - 10/2023"</p>
                         <p className="text-muted">Designed an IoT interfaces integrating temperature, moisture, and CO2 data. 
@@ -52,7 +52,7 @@ const WorkExperience = () => {
                 </div>
                 <div className="col-md-6 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
-                        <h4>Web Developer</h4>
+                        <h4 style={{ fontSize: '2.2em' }}>Web Developer</h4>
                         <p className="text-muted">University project</p>
                         <p className="text-muted">01/2023 - 03/2023"</p>
                         <p className="text-muted">Developed a Coffee Shop website as a university project in different formats, utilizing PHP, HTML and Wordpress.</p>
