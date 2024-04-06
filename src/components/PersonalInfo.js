@@ -20,7 +20,7 @@ const styles = {
         marginTop: '10px',
     },
     cardText: {
-        textAlign: 'left',
+        textAlign: 'center',
         marginLeft: '40px',
         marginTop: '10px',
         fontSize: '20px',
