@@ -6,16 +6,29 @@ function Navbar() {
         // Initialize the collapse functionality after the component mounts
         const navbarToggler = document.querySelector('.navbar-toggler');
         const navbarCollapse = document.querySelector('.navbar-collapse');
+        const navLinks = document.querySelectorAll('.nav-link');
 
+        // Toggle the navbar when the toggler is clicked
         navbarToggler.addEventListener('click', () => {
             navbarCollapse.classList.toggle('show');
         });
 
-        // Clean up event listener when the component unmounts
+        // Function to close the navbar when a nav-link is clicked
+        const closeMenu = () => {
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
+        };
+
+        // Add click event to each nav link
+        navLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+        // Clean up event listeners when the component unmounts
         return () => {
             navbarToggler.removeEventListener('click', () => {
                 navbarCollapse.classList.toggle('show');
             });
+            navLinks.forEach(link => link.removeEventListener('click', closeMenu));
         };
     }, []);
 

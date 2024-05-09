@@ -6,10 +6,6 @@ body {
   text-align: center;
 }
 
-.nav-box {
-  margin: 10px 10px 10px 10px;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -49,7 +45,8 @@ body {
 }
 
 .navbar-nav .nav-link {
-  font-size: 2.0rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   transition: color 0.3s ease;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -60,7 +57,6 @@ body {
 
 .nav-box {
   padding: 3px;
-  border: 1px solid #ccc;
   border-radius: 10px;
   margin-right: 15px;
   transition: background-color 0.3s ease; /* Add transition for smooth effect */
@@ -69,3 +65,11 @@ body {
 .nav-box:hover {
   background-color: #000000; /* Change background color on hover */
 }
+
+/* This applies to screens larger than 768 pixels */
+@media (min-width: 768px) {
+  .nav-box:hover {
+      background-color: #000000; /* Change background color on hover */
+  }
+}
+
