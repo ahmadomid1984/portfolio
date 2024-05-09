@@ -7,91 +7,41 @@ const styles = {
         marginTop: '50px',
     },
     cardContainer: {
-        marginTop: '40px',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        margin: '3rem auto',
+        maxWidth: '1200px', // This width accommodates three 300px cards plus 10px margin on each side of the cards
     },
     card: {
-        width: 'calc(100% - 10px)', // Adjusted width
-        margin: '10px', // Reduced margin for better spacing
+        width: '350px', // Set a fixed width
+        height: '200px', // Set a fixed height to make the card square
+        margin: '10px', // Margin around each card to ensure spacing
         padding: '20px',
         border: '1px solid #ccc',
         borderRadius: '10px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center', // Center content vertically
+        alignItems: 'center', // Center content horizontally
         textAlign: 'center',
         backgroundColor: '#fff',
         color: '#000',
         fontSize: '1em',
-    },
-    progressBarContainer: {
-        width: '100%',
-        backgroundColor: '#ddd',
-        borderRadius: '10px',
-        marginTop: '30px',
-    },
-    progressBarFill: {
-        backgroundColor: '#007bff',
-        borderRadius: '10px',
-        height: '20px',
-        color: '#fff',
-        fontWeight: 'bold',
-        textAlign: 'center',
-        lineHeight: '20px',
+        boxShadow: '0 4px 8px rgba(0,0,0,0.1)', // Optional: add shadow for better aesthetics
     },
 };
-// Define the skillsData array
+
 const skillsData = [
-    {
-        id: 1,
-        title: 'Frontend Capabilities',
-        technologies: ['React', 'Wordpress', 'HTML'],
-        percent: 60,
-    },
-    {
-        id: 2,
-        title: 'Backend Capabilities',
-        technologies: ['Node.js', 'PHP', 'MongoDB'],
-        percent: 50,
-    },
-    {
-        id: 3,
-        title: 'Programming Capabilities',
-        technologies: ['Python', 'Java', 'JavaScript'],
-        percent: 40,
-    },
-    {
-        id: 4,
-        title: 'Data Visualizations',
-        technologies: ['Matplotlib', 'Seaborn', 'Power Bi', 'Excel'],
-        percent: 40,
-    },
-    {
-        id: 5,
-        title: 'Database Management',
-        technologies: ['MySQL', 'SSMS', 'VS Community'],
-        percent: 40,
-    },
-    {
-        id: 6,
-        title: 'Software Development',
-        technologies: ['VS Code', 'GitHub', 'Docker', 'Cloud'],
-        percent: 60,
-    },
-    {
-        id: 7,
-        title: 'Microsoft 365 Capabilities',
-        technologies: ['Power Automate', 'Power Apps', 'Teams'],
-        percent: 60,
-    },
-    {
-        id: 8,
-        title: 'Test Automation Process',
-        technologies: ['Robot Framework', 'UiPath', 'RPA'],
-        percent: 50,
-    },
-    {
-        id: 9,
-        title: 'ML & Data Processing',
-        technologies: ['Supervised & Unsupervised Learning'],
-        percent: 30,
-    },
+    { id: 1, title: 'Frontend Capabilities', technologies: ['React', 'Wordpress', 'HTML'] },
+    { id: 2, title: 'Backend Capabilities', technologies: ['Node.js', 'Express.js', 'PHP'] },
+    { id: 3, title: 'Programming Capabilities', technologies: ['Python', 'Java', 'JavaScript'] },
+    { id: 4, title: 'Data Visualizations', technologies: ['Matplotlib', 'Seaborn', 'Power Bi'] },
+    { id: 5, title: 'Database Management', technologies: ['MySQL', 'SSMS', 'MongoDB'] },
+    { id: 6, title: 'Software Development', technologies: ['VS Code', 'GitHub', 'Docker', 'Cloud'] },
+    { id: 7, title: 'Microsoft 365 Capabilities', technologies: ['Power Automate', 'Power Apps', 'Teams'] },
+    { id: 8, title: 'Test Automation Process', technologies: ['Robot Framework', 'UiPath', 'RPA'] },
+    { id: 9, title: 'ML & Data Processing', technologies: ['Supervised & Unsupervised Learning'] },
 ];
 
 function Skills({ header }) {
@@ -101,11 +51,10 @@ function Skills({ header }) {
         setData(skillsData);
     }, []);
 
-    // Dynamically adjust font size based on screen width
     useEffect(() => {
         const handleResize = () => {
             const width = window.innerWidth;
-            const fontSize = width < 1024 ? '1em' : '1em'; // Adjust font size for tablet screens
+            const fontSize = width < 1024 ? '1em' : '1em';
             document.documentElement.style.fontSize = fontSize;
         };
 
@@ -121,27 +70,13 @@ function Skills({ header }) {
         <div style={{ textAlign: 'center' }}>
             <h1 style={styles.nameStyle}>Skills</h1>
             <h2>{header}</h2>
-            <div className="container" style={styles.cardContainer}>
-                <div className="row">
-                    {data.map((skill, index) => (
-                        <div key={skill.id} className="col-lg-4 col-md-12"> {/* Adjusted column size for tablets */}
-                            <div style={styles.card}>
-                                <h3 style={{ fontSize: '2em' }}>{skill.title}</h3>
-                                <div style={{ fontSize: '1.2em' }}>{skill.technologies && skill.technologies.join(', ')}</div>
-                                <div style={styles.progressBarContainer}>
-                                    <div
-                                        style={{
-                                            ...styles.progressBarFill,
-                                            width: `${skill.percent}%`,
-                                        }}
-                                    >
-                                        {skill.percent}%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+            <div style={styles.cardContainer}>
+                {data.map((skill, index) => (
+                    <div key={skill.id} style={styles.card}>
+                        <h3 style={{ fontSize: '1.6em', fontWeight: 'bold' }}>{skill.title}</h3>
+                        <div style={{ fontSize: '1.2em' }}>{skill.technologies.join(', ')}</div>
+                    </div>
+                ))}
             </div>
         </div>
     ) : (
