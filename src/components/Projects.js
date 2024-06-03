@@ -5,7 +5,19 @@ const Projects = () => {
         <div className="container py-5">
             <h1 className="mb-4 text-center" style={{ fontSize: '4em' }}>Projects</h1>
             <div className="row justify-content-center">
-            <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
+                <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
+                    <div className="card h-100">
+                        <img src="images/Prediction.png" className="card-img-top" alt="Project 0" />
+                        <div className="card-body text-center">
+                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Stock Market Prediction with LightingChart</h5>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart, showcases how to dynamically visualize stock trends and forecast future market movements efficiently.</p>
+                        </div>
+                        <div className="card-footer text-center">
+                            <a href="https://github.com/ahmadomid1984/Stock-Market-Prediction-with-LightingChart" className="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
                         <img src="images/nodejs.png" className="card-img-top" alt="Project 1" />
                         <div className="card-body text-center">
