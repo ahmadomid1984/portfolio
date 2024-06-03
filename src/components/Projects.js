@@ -55,6 +55,17 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
+                        <img src="images/bovi.png" className="card-img-top" alt="Project 1" />
+                        <div className="card-body text-center">
+                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Bovi Website</h5>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>Bovi, a specialized service centered around food and drinks, such as restaurants and cafes. Designed by Wordpress.</p>
+                        </div>
+                        <div className="card-footer text-center">
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
+                    <div className="card h-100">
                         <img src="images/co2emission.png" className="card-img-top" alt="Project 4" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>AI & ML Projects</h5>
