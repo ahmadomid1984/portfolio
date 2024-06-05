@@ -8,7 +8,7 @@ const WorkExperience = () => {
                 <div className="col-lg-6 col-md-12 col-sm-12 mb-3"> {/* Center the column horizontally */}
                     <div className="card p-4 h-100">
                         <h4 style={{ fontSize: '2.2em' }}>AI & ML Developer</h4>
-                        <p className="text-muted" style={{ fontSize: '16px' }}>Chart Lightening Oy</p>
+                        <p className="text-muted" style={{ fontSize: '16px' }}>Chart Lightning Oy</p>
                         <p className="text-muted" style={{ fontSize: '16px' }}>05/2024 - 08/2024</p>
                         <p className="text-muted" style={{ fontSize: '20px' }}>Creating predictive analytics projects with LCJS and LC Python.
                         Creating projects with LLM tools, which visualize data with LC Python or LCJS.</p>

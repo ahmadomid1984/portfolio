@@ -9,11 +9,11 @@ const Projects = () => {
                     <div className="card h-100">
                         <img src="images/Prediction.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
-                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Stock Market Prediction with LightingChart</h5>
+                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Stock Market Prediction with LightningChart</h5>
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart, showcases how to dynamically visualize stock trends and forecast future market movements efficiently.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Stock-Market-Prediction-with-LightingChart" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Stock-Market-Prediction-with-LightningChart" className="btn btn-primary">GitHub</a>
                         </div>
                     </div>
                 </div>
