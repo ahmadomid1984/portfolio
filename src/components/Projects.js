@@ -72,7 +72,7 @@ const Projects = () => {
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Bovi Website</h5>
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Bovi, a specialized service centered around food and drinks, such as restaurants and cafes. Designed by Wordpress.</p>
                         </div>
-                        <a href="https://bovi.fi/" className="btn btn-primary">Bovi Website</a>
+                            <a href="https://bovi.fi/" className="btn btn-primary">Website</a>
                         </div>
                     </div>
                 </div>
