@@ -10,7 +10,7 @@ const Projects = () => {
                         <img src="images/creditRisk.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Credit Risk Assessment</h5>
-                            <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart, to predict and assesst the risks behind allocating credits.</p>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart to predict and assess the risks behind allocating credits.</p>
                         </div>
                         <div className="card-footer text-center">
                             <a href="https://github.com/ahmadomid1984/Credit-Risk-Assessment" className="btn btn-primary">GitHub</a>
