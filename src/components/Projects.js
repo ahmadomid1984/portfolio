@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
-                        <img src="images/creditRisk.png" className="card-img-top" alt="Project 0" />
+                        <img src="images/2nd_project.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Credit Risk Assessment</h5>
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart to predict and assess the risks behind allocating credits.</p>
@@ -19,7 +19,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
-                        <img src="images/Prediction.png" className="card-img-top" alt="Project 1" />
+                        <img src="images/1st_project.png" className="card-img-top" alt="Project 1" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Stock Market Prediction</h5>
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart, showcases how to dynamically visualize stock trends and forecast future market movements efficiently.</p>
