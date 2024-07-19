@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
-                        <img src="images/11.jpg" className="card-img-top" alt="Project 0" />
+                        <img src="images/11.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Forex Predictive Model Analysis</h5>
                             <p className="card-text" style={{ fontSize: '1.2em' }}>This project predicts the EUR/USD Forex exchange rate using machine learning.</p>
