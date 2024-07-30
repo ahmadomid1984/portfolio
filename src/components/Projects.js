@@ -7,6 +7,18 @@ const Projects = () => {
             <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
+                        <img src="images/10.png" className="card-img-top" alt="Project 0" />
+                        <div className="card-body text-center">
+                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Gold Price Prediction Analysis</h5>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>Developed a predictive model using LSTM to forecast gold ETF prices with high accuracy. Utilized LightningChart for advanced data visualization, enhancing analytical insights and presentation.</p>
+                        </div>
+                        <div className="card-footer text-center">
+                            <a href="https://github.com/ahmadomid1984/Gold-Price-Prediction-Analysis" className="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
+                    <div className="card h-100">
                         <img src="images/11.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Forex Predictive Model Analysis</h5>
