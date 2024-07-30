@@ -10,7 +10,7 @@ const Projects = () => {
                         <img src="images/10.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Gold Price Prediction Analysis</h5>
-                            <p className="card-text" style={{ fontSize: '1.2em' }}>Developed a predictive model using LSTM to forecast gold ETF prices with high accuracy. Utilized LightningChart for advanced data visualization, enhancing analytical insights and presentation.</p>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>Developed a predictive model using LSTM to forecast gold ETF prices with high accuracy. Utilized LightningChart for data visualization, enhancing analytical insights and presentation.</p>
                         </div>
                         <div className="card-footer text-center">
                             <a href="https://github.com/ahmadomid1984/Gold-Price-Prediction-Analysis" className="btn btn-primary">GitHub</a>
