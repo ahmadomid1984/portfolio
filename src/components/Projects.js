@@ -7,6 +7,18 @@ const Projects = () => {
             <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
                     <div className="card h-100">
+                        <img src="images/7.png" className="card-img-top" alt="Project 0" />
+                        <div className="card-body text-center">
+                            <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Portfolio Performance Tracking and Optimization</h5>
+                            <p className="card-text" style={{ fontSize: '1.2em' }}>This project involves creating a dashboard using LightningChart to track and optimize investment portfolio performance, providing visual insights into returns, risk metrics, and portfolio composition based on historical data.</p>
+                        </div>
+                        <div className="card-footer text-center">
+                            <a href="https://github.com/ahmadomid1984/Portfolio-Performance-Tracking-and-Optimization" className="btn btn-primary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            <div className="col-lg-5 col-md-8 col-sm-12 mb-4 mt-5"> {/* Added col-sm-10 for smaller screens */}
+                    <div className="card h-100">
                         <img src="images/10.png" className="card-img-top" alt="Project 0" />
                         <div className="card-body text-center">
                             <h5 className="card-title" style={{ fontSize: '1.5em', fontWeight: 'bold' }}>Gold Price Prediction Analysis</h5>
