@@ -13,7 +13,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>This project involves creating a dashboard using LightningChart to track and optimize investment portfolio performance, providing visual insights into returns, risk metrics, and portfolio composition based on historical data.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Portfolio-Performance-Tracking-and-Optimization" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Portfolio-Performance-Tracking-and-Optimization" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/portfolio-optimization-python/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
@@ -25,7 +26,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Developed a predictive model using LSTM to forecast gold ETF prices with high accuracy. Utilized LightningChart for data visualization, enhancing analytical insights and presentation.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Gold-Price-Prediction-Analysis" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Gold-Price-Prediction-Analysis" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/gold-price-prediction-python/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>This project predicts the EUR/USD Forex exchange rate using machine learning.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Forex-Predictive-Model" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Forex-Predictive-Model" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/euro-vs-dollar-forecast-application-development/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +52,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>In this project, I conducted a comprehensive stock market sentiment analysis using Python alongside with LightningChart for visualization to predict stock price movements.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Stock-Market-Sentiment-Analysis" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Stock-Market-Sentiment-Analysis" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/stock-market-sentiment-analysis/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +65,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart to predict and assess the risks behind allocating credits.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Credit-Risk-Assessment" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Credit-Risk-Assessment" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/credit-risk-modeling/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +78,8 @@ const Projects = () => {
                             <p className="card-text" style={{ fontSize: '1.2em' }}>Utilizing machine learning algorithms alongside with LightningChart, showcases how to dynamically visualize stock trends and forecast future market movements efficiently.</p>
                         </div>
                         <div className="card-footer text-center">
-                            <a href="https://github.com/ahmadomid1984/Stock-Market-Prediction-with-LightningChart" className="btn btn-primary">GitHub</a>
+                            <a href="https://github.com/ahmadomid1984/Stock-Market-Prediction-with-LightningChart" className="btn btn-primary" style={{ marginRight: '10px' }}>GitHub</a>
+                            <a href="https://lightningchart.com/blog/python/stock-price-prediction-in-python/" className="btn btn-primary" style={{ marginRight: '10px' }}>Blog</a>
                         </div>
                     </div>
                 </div>
